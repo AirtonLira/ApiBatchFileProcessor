@@ -1,12 +1,9 @@
-package com.devsuperior.userdept;
+package com.airton.userdept.repositories;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@SpringBootApplication
-public class UserdeptApplication {
+import com.airton.userdept.entities.User;
 
-    public static void main(String[] args) {
-        SpringApplication.run(UserdeptApplication.class, args);
-    }
+public interface UserRepository extends JpaRepository<User, Long> {
+
 }

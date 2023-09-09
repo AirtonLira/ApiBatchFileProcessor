@@ -1,4 +1,4 @@
-package com.devsuperior.userdept.entities;
+package com.airton.userdept.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

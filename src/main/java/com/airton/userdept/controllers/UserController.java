@@ -1,7 +1,8 @@
-package com.devsuperior.userdept.controllers;
+package com.airton.userdept.controllers;
 
 import java.util.List;
 
+import com.airton.userdept.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.userdept.entities.User;
-import com.devsuperior.userdept.repositories.UserRepository;
+import com.airton.userdept.entities.User;
+import com.airton.userdept.repositories.UserRepository;
 
 @RestController
 @RequestMapping(value = "/users")
