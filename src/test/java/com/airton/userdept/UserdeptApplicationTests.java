@@ -1,4 +1,4 @@
-package com.devsuperior.userdept;
+package com.airton.userdept;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

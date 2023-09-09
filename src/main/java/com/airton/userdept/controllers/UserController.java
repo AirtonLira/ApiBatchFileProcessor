@@ -17,21 +17,21 @@ import com.devsuperior.userdept.repositories.UserRepository;
 @RequestMapping(value = "/users")
 public class UserController {
 
-	@Autowired
-	private UserRepository repository;
-	
-	@GetMapping
-	public List<User> findAll() {
-		return repository.findAll();
-	}
+    @Autowired
+    private UserRepository repository;
 
-	@GetMapping(value = "/{id}")
-	public User findAll(@PathVariable Long id) {
-		return repository.findById(id).get();
-	}
-	
-	@PostMapping
-	public User insert(@RequestBody User user) {
-		return repository.save(user);
-	}
+    @GetMapping
+    public List<User> findAll() {
+        return repository.findAll();
+    }
+
+    @GetMapping(value = "/{id}")
+    public User findAll(@PathVariable Long id) {
+        return repository.findById(id).get();
+    }
+
+    @PostMapping
+    public User insert(@RequestBody User user) {
+        return repository.save(user);
+    }
 }
