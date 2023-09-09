@@ -1,9 +1,9 @@
-Projeto Java Web no Spring Boot 2022
+### Projeto Java com Spring Boot 2023
 >  Estudo da stack spring boot utilizando até o momento o Spring Web para uso de endpoints com banco de dados Spring Data - H2
 
 ## Realização
-Airton Lira Junior
-Linkedin: 
+- Airton Lira Junior
+- Linkedin: https://www.linkedin.com/in/airton-lira-junior-6b81a661/
 
 ### Pré-requisitos
 
@@ -13,7 +13,7 @@ Linkedin:
   - Spring Tool Suite (STS) ou Intellij
   - Postman
 
-### Objetivos da aula
+### Objetivos do projeto
 
 - Resgatar fundamentos de programação
 - Colocar em prática esses fundamentos
