@@ -1,5 +1,7 @@
 ### Projeto Java com Spring Boot 2023
 >  Estudo da stack spring boot utilizando até o momento o Spring Web para uso de endpoints com banco de dados Spring Data - H2
+>  Processamento com Sprint batch através dos arquivos disponibilizados nos endpoints 
+>  Aplicado autenticação oauth2 com Spring Security
 
 ## Realização
 - Airton Lira Junior
