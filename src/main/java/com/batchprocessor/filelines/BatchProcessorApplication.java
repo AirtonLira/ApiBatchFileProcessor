@@ -1,12 +1,11 @@
-package com.airton.userdept;
+package com.batchprocessor.filelines;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserdeptApplication {
-
+class BatchProcessor {
     public static void main(String[] args) {
-        SpringApplication.run(UserdeptApplication.class, args);
+        SpringApplication.run(BatchProcessor.class, args);
     }
 }
