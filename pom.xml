@@ -8,10 +8,10 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devsuperior</groupId>
-	<artifactId>api-batch-file-processor</artifactId>
+	<groupId>com.batchfileprocessor</groupId>
+	<artifactId>batchprocessor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>userdept</name>
+	<name>file-processor</name>
 	<description>API - Batch file processor</description>
 	<properties>
 		<java.version>17</java.version>
@@ -30,6 +30,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>3.1.3</version>
 		</dependency>
 	</dependencies>
 
